@@ -1,0 +1,30 @@
+.container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+}
+
+body {
+    background-size: cover;
+}
+
+#header {
+    padding: 2px;
+    top: 0%;
+    margin-top: 0%;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(120deg, orange, white, green);
+    font-size: xx-large;
+    display: block;
+}
+
+#footer {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background: linear-gradient(120deg, orange, white, green);
+    bottom: 0%;
+    font-size: x-large;
+}
